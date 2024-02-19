@@ -1,3 +1,45 @@
+/**Movil**/
+@media (max-width: 767px){
+    .desktop{display: none;}
+    .tablet{display: none;}
+    .contenedor {
+        background-size: cover; /* Ajuste para imagen de fondo en móviles */
+    }
+    p {
+        font-size: large; /* Ajuste de tamaño de fuente para móviles */
+    }
+    button {
+        font-size: large; /* Ajuste de tamaño de fuente para móviles */
+    }
+}
+/**Tablet**/
+@media (min-width: 768px) and (max-width: 990px){
+    .desktop{display: none;}
+    .movil{display: none;}
+    .contenedor {
+        background-size: cover; /* Ajuste para imagen de fondo en tabletas */
+    }
+    p {
+        font-size: x-large; /* Ajuste de tamaño de fuente para tabletas */
+    }
+    button {
+        font-size: x-large; /* Ajuste de tamaño de fuente para tabletas */
+    }
+}
+/**Escritorio**/
+@media (min-width: 991px){
+    .movil{display: none;}
+    .tablet{display: none;}
+    .contenedor {
+        background-size: contain; /* Ajuste para imagen de fondo en escritorio */
+    }
+    p {
+        font-size: xx-large; /* Ajuste de tamaño de fuente para escritorio */
+    }
+    button {
+        font-size: xx-large; /* Ajuste de tamaño de fuente para escritorio */
+    }
+}
 *{
     margin: 0;
 }
