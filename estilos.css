@@ -36,6 +36,8 @@ button{
     position: absolute;
     top: 20%;
     left: 44%;
+
+    pointer-events: none;
 }
 
 #yesBtn{
