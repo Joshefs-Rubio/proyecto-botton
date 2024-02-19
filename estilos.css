@@ -21,7 +21,7 @@ button{
     border-radius: 16px;
     border: none;
     outline: none;
-    font-family: cursive;
+    
 }
 
 .gif{
@@ -35,7 +35,6 @@ button{
     box-shadow: 0 10px 10px  rgb(51, 48, 48);
     color: white;
     background-color: transparent;
-    font-family: cursive;
     backdrop-filter: blur(20px);
 }
 
@@ -44,7 +43,7 @@ button{
     box-shadow: 0 10px 10px  rgb(51, 48, 48);
     background-color: transparent;
     color: white;
-    font-family: cursive;
+    
     backdrop-filter: blur(20px);
 }
 
